@@ -159,7 +159,7 @@ LC,02,3,Keyless Entry:  0 = Inactive / 1 = Active
 LC,02,4,Reserved, default 1
 LC,02,5,Seat Symmetry:  0 = Inactive / 1 = Active 
 LC,02,6,Comfort side view:  0 = Inactive / 1 = Active 
-LC,02,7,Lumbar Massage function: 0 = Inactive / 1 = Active 
+LC,02,7,Set base position for rear seats function active 
 LC,03,0,Status of backrest: 0 = Mechanical Stop / 1 = Limit switch
 LC,03,1,2 Door: Auto lockout: 0 = Only W/P-tap button / 1 = Active w/remote memory and w/P-tap button				
 LC,03,2,2 Door, Easy entry: 0 = Inactive / 1 = Active 
@@ -180,7 +180,9 @@ LC,05,1,Standardization strategy of backrest stop rear: 0 = No stop / 1 = Mechan
 LC,05,2,Activate map: 0 = inactive, 1 = active
 LC,05,3,Map type: 0 = Coupe seat, 1 = Super sport seat only w/o head restraint coding
 LC,06,0,Longitudinal adjustment system, 1 = Sensorless Positioning Fault Check
+LC,06,1,Adjust passenger seat from driver switches function active
 LC,06,2,Longitudinal adjustment system,  1 = Adjustment Sender Fault Check
+LC,06,4,Seat belt tensioner active
 LC,06,6,Backrest Adjuster system, 1 = Sensorless Positioning and Adjustment Sender Fault Check
 LC,06,7=,Fault Check Options
 LC,07,0,Height adjustment, 1 = Sensorless Positioning Fault Check
@@ -195,5 +197,16 @@ LC,09,0,Upper Backrest adjustment, 1 = Sensorless Positioning Fault Check
 LC,09,2,Upper Backrest adjustment, 1 = Adjustment Sender Fault Check
 LC,09,4,Belt Height adjustment, 1 = Sensorless Positioning and Adjustment Sender Fault Check
 LC,09,7=,Fault Check Options
+LC,10,0,Seat longitudinal adjustment active
+LC,11,0,Backrest angle adjustment active
+LC,12,0,Cushion angle adjustment active
+LC,14,0,Knee rest longitudinal adjustment active
+LC,15,0,Head Restraint adjustment active
+LC,16,0,Upper Backrest adjustment active
+LC,17,0,Seat belt height adjustment active
+LC,18,0,Lumbar curvature adjustment active
+LC,19,0,Lumbar height adjustment active
+LC,21,0,Backrest side support adjustment active
+LC,22,0,Cushion side support adjustment active
 V,1083
 
