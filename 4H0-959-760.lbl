@@ -189,7 +189,8 @@ LC,07,0,Height adjustment, 1 = Sensorless Positioning Fault Check
 LC,07,2,Height adjustment, 1 = Adjustment Sender Fault Check
 LC,07,4,Rake adjustment, 1 = Sensorless Positioning and Adjustment Sender Fault Check
 LC,07,7=,Fault Check Options
-LC,08,0,Cushion lowering, 1 = Sensorless Positioning Fault Check
+LC,08,0,Massage mode 1 enabled
+LC,08,1,Massage mode 2 enabled
 LC,08,2,Cushion lowering, 1 = Adjustment Sender Fault Check
 LC,08,4,Head Restraint adjustment, 1 = Sensorless Positioning and Adjustment Sender Fault Check
 LC,08,7=,Fault Check Options
