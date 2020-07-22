@@ -1,0 +1,199 @@
+001,0,Memory IDs and Remote control key signals
+001,1,Memory IDs
+001,2,Memory IDs
+001,3,Remote control,signal
+001,4,Remote control,memory button
+002,0,Longitudinal and Backrest angle adjustment
+002,1,Longitudinal,Status
+002,2,Longitudinal,Counter Value
+002,3,Backrest angle,adjustment
+002,4,Backrest angle,Counter Value
+003,0,Seat Height and Rake adjustment
+003,1,Seat Height,adjustment
+003,2,Seat Height,Counter Value
+003,3,Rake adjustment
+003,4,Rake adjustment,Counter Value
+004,0,Stored Counter Values First Position Switch - I
+004,1,Longitudinal,adjustment
+004,2,Backrest,adjustment
+004,3,Seat Height,adjustment
+004,4,Rake adjustment
+005,0,Stored Counter Values Second Position Switch - II
+005,1,Longitudinal,adjustment
+005,2,Backrest,adjustment
+005,3,Seat Height,adjustment
+005,4,Rake adjustment
+009,0,Stored Counter Value via Remote Control Key 
+009,1,Longitudinal,adjustment
+009,2,Backrest,adjustment
+009,3,Seat Height,adjustment
+009,4,Rake adjustment
+012,0,Head Restraint and Seat Lowering adjustment
+012,1,Head Restraint,adjustment
+012,2,Head Restraint,Counter Value      
+012,3,Seat Lowering,adjustment
+012,4,Seat Lowering,Counter Value  
+041,0,Remote Control and Power Management
+041,1,Power Management
+041,2,Remote Control,Buttons
+041,4,Key Memory,Service Fault,0 = Inactive / 1 = Active
+042,0,Remote Control Memory
+042,1,Key 1
+042,2,Key 1
+042,3,Key 1
+042,4,Key 1
+043,0,Memory Switch Passenger side
+044,0,,
+044,1,Terminal 30
+045,0,,
+045,1,Multimedia,Interface request
+050,0,Seat Adjustment Standardization
+050,1,Standardization,Status,0 = NOT Standardized / 1 = Standardized\n\nx-xxx? = Longitudinal Adjustment\nx-xx?x = Backrest Adjustment\nx-x?xx = Height Adjustment\nx-?xxx = Rake Adjustment\n?-xxxx = Head Restraint Adjustment (ignore for S/RS-Models)
+050,3,Standardization,History,0 = NOT Standardized / 1 = Standardized\n\nx-xxx? = Longitudinal Adjustment\nx-xx?x = Backrest Adjustment\nx-x?xx = Height Adjustment\nx-?xxx = Rake Adjustment\n?-xxxx = Head Restraint Adjustment (ignore for S/RS-Models)
+051,0,Stored adjustment values
+051,1,Maximum,Longitudinal,Display Range: 0.0...65535
+051,2,Front,Longitudinal
+051,3,Rear,Longitudinal,Display Range: 0.0...65535
+051,4,Counter,Longitudinal,Display Range: 0.0...65535
+052,0,Stored adjustment values
+052,1,Maximum,Backrest,Display Range: 0.0...65535
+052,2,Front,Backrest 
+052,3,Rear,Backrest,Display Range: 0.0...65535
+052,4,Counter,Backrest,Display Range: 0.0...65535
+053,0,Stored adjustment values
+053,1,Maximum,Height,Display Range: 0.0...65535
+053,2,Front, Height
+053,3,Rear,Height,Display Range: 0.0...65535
+053,4,Counter,Height,Display Range: 0.0...65535
+054,0,Stored adjustment values
+054,1,Maximum,Rake,Display Range: 0.0...65535
+054,2,Front Rake
+054,3,Rear Rake,,Display Range: 0.0...65535
+054,4,Counter,Rake,Display Range: 0.0...65535
+055,0,Stored adjustment values
+055,1,Maximum Head,Restraint,Display Range: 0.0...65535
+055,2,Bottom,Head Restraint,Display Range: 0.0...65535
+055,3,Top,Head Restraint,Display Range: 0.0...65535
+055,4,Counter,Head Restraint,Display Range: 0.0...65535
+061,0,Motor Current Measurement
+061,1,Group I
+061,2,Group I
+062,0,Motor Current Measurement
+062,1,Group II
+062,2,Group II
+063,0,Motor Current Measurement
+063,1,Group III
+063,2,Group III
+064,0,Heater Current
+064,1,Central,Heating Panel
+064,2,Side Bolster,Heating
+065,0,Heater Temperature 
+065,1,Actual Temp.
+065,2,Specified Temp.
+066,1,PCB Temp.
+066,2,Internal,Overheating,Display Range: 0 = OK
+067,0,Load Change Counter 
+067,1,Longitudinal,adjustment
+067,2,Backrest,adjustment
+067,3,Height,adjustment
+067,4,Rake,adjustment
+070,0,Switching States
+071,0,Motor Temperature
+071,1,Longitudinal
+071,2,Backrest
+071,3,Height
+071,4,Rake
+072,0,Motor Temperature
+072,2,Head Restraint
+130,0,CAN-BUS Status
+130,1,Driver Seat,,Display Range: 1-Wire / 2-Wire
+130,2,Driver Door,,Display Range: Dr. Door 1 / Dr. Door 0
+130,3,Load Module,,Display Range: 0 = Inactive / 1 = Active
+130,4,Gateway,,Display Range: 0 = Inactive / 1 = Active
+131,0,CAN-BUS Status
+131,1,Battery,Management,Display Range: 0 = Inactive / 1 = Active
+131,2,Pass. Door,,Display Range: 0 = Inactive / 1 = Active
+131,3,Seat Memory
+132,0,CAN-BUS Status
+132,1,Cent. Elec.,,Display Range: 0 = Inactive / 1 = Active
+132,2,Ign.Lock,,Display Range: 0 = Inactive / 1 = Active
+132,3,Pass. Rear,Door,Display Range: 0 = Inactive / 1 = Active
+132,4,Driver Rear,Door,Display Range: 0 = Inactive / 1 = Active
+A001,0,Reset Control Module Address
+A001,5,Reset Control Module Address
+A001,6,The Control Module Address (36/Driver or 06/Passenger) is
+A001,7,Determined automatically. In some cases a Reset may be necessary.
+A001,8, 
+A001,9,0 = Reset & Automatic Address Assignment
+A001,10,1 = 36/Driver Side Control Module
+A001,11,2 = 06/Passenger Side Control Module
+A003,0,Reset Standardization
+A003,5,Reset Standardization
+A003,6,To Reset all learned Standardization Values (see MVB 050)
+A003,7,Save '0' as new Value. Followed by a Selective Output Test.
+A04,0,
+A04,1,
+A04,2,
+A04,3,
+A04,4,
+LC,00,0,Heavy Duty Seat installed
+LC,00,1,Seat cushion lower depth adjustment: 0 = Inactive / 1 = Active 
+LC,00,2,Upper backrest adjustment: 0 = Inactive / 1 = Active 
+LC,00,3,Head restraint height adjustment:  0 = Inactive / 1 = Active 
+LC,00,4,Belt height adjustment: 0 = Inactive / 1 = Active 
+LC,00,5,Lumbar height and curvature adjustment: 0 = Inactive / 1 = Active 
+LC,00,6,Seat heating: 0 = Inactive / 1 = Active 
+LC,00,7,Seat ventilation: 0 = Inactive / 1 = Active 
+LC,01,0,Forward longitudinal adjustment, (Pinch Protection): 0 = Inactive / 1 = Active 
+LC,01,1,Backwards longitudinal adjustment, (Pinch Protection): 0 = Inactive / 1 = Active 
+LC,01,2,Down seat height adjustment, (Pinch Protection): 0 = Inactive / 1 = Active 
+LC,01,3,Audible feedback when storing: 0 = Inactive / 1 = Active 
+LC,01,4,Memory store mode: 0 = Without LED (Hold down) / 1 = With LED (Momentary) 
+LC,01,5,Left Hand Drive 0 = Left Hand drive / 1 = Right Hand drive 
+LC,01,6,Front Passenger seat control unit (Address 06-Seat Adjustment): 0 = Installed / 1 = Not Installed
+LC,01,7,Shut-off of adjustment at Terminal X:  0 = Inactive / 1 = Active 
+LC,02,0,Remote control, Automatic key memory mode: 0 = Inactive / 1 = Active 
+LC,02,1,Power button memory and door control unit: 0 = Inactive / 1 = Active 
+LC,02,2,Passenger Front seat adjustment from rear:  0 = Inactive / 1 = Active 
+LC,02,3,Keyless Entry:  0 = Inactive / 1 = Active 
+LC,02,4,Reserved, default 1
+LC,02,5,Seat Symmetry:  0 = Inactive / 1 = Active 
+LC,02,6,Comfort side view:  0 = Inactive / 1 = Active 
+LC,02,7,Lumbar Massage function: 0 = Inactive / 1 = Active 
+LC,03,0,Status of backrest: 0 = Mechanical Stop / 1 = Limit switch
+LC,03,1,2 Door: Auto lockout: 0 = Only W/P-tap button / 1 = Active w/remote memory and w/P-tap button				
+LC,03,2,2 Door, Easy entry: 0 = Inactive / 1 = Active 
+LC,03,3,2 Door, Easy entry, Head restraint manually adjustable with backrest folded down: 0 = Inactive / 1 = Active 
+LC,03,4,2 Door, Easy entry, deactivation w/door closed: 1 = Deactivated with Easy entry / 1 = Automatic always
+LC,03,5,Soft Start (Gentle Run): 0 = Inactive / 1 = Active
+LC,03,6,Easy entry front seat function (Only w/ remote memory mode): 0 = Inactive / 1 = Active 
+LC,03,7,Easy entry rear seat function (Only w/ easy entry rear seat control unit): 0 = Inactive / 1 = Active
+LC,04,0,Backrest Fan: 0 = No / 1 = Yes
+LC,04,1,Backrest, Multiple fans: 0 = No / 1 = Yes
+LC,04,2,Cushion Fan: 0 = No / 1 = Yes
+LC,04,3,Cushion, Multiple fans: 0 = No / 1 = Yes
+LC,04,4,Seat Cover Type: 0 = Type A / 1 = Type B
+LC,04,5,Seat Occupied Sensor: 0 = No / 1 = Yes (LIN only)
+LC,04,6,Left Hand Drive 0 = Left Hand drive / 1 = Right Hand drive (LIN only)
+LC,05,0,Pass. Door Power button memory, door unit: 0 = Not Installed / 1 = Installed ( n/a w/ Address 06-Seat Adjustment)
+LC,05,1,Standardization strategy of backrest stop rear: 0 = No stop / 1 = Mechanical stop
+LC,05,2,Activate map: 0 = inactive, 1 = active
+LC,05,3,Map type: 0 = Coupe seat, 1 = Super sport seat only w/o head restraint coding
+LC,06,0,Longitudinal adjustment system, 1 = Sensorless Positioning Fault Check
+LC,06,2,Longitudinal adjustment system,  1 = Adjustment Sender Fault Check
+LC,06,6,Backrest Adjuster system, 1 = Sensorless Positioning and Adjustment Sender Fault Check
+LC,06,7=,Fault Check Options
+LC,07,0,Height adjustment, 1 = Sensorless Positioning Fault Check
+LC,07,2,Height adjustment, 1 = Adjustment Sender Fault Check
+LC,07,4,Rake adjustment, 1 = Sensorless Positioning and Adjustment Sender Fault Check
+LC,07,7=,Fault Check Options
+LC,08,0,Cushion lowering, 1 = Sensorless Positioning Fault Check
+LC,08,2,Cushion lowering, 1 = Adjustment Sender Fault Check
+LC,08,4,Head Restraint adjustment, 1 = Sensorless Positioning and Adjustment Sender Fault Check
+LC,08,7=,Fault Check Options
+LC,09,0,Upper Backrest adjustment, 1 = Sensorless Positioning Fault Check
+LC,09,2,Upper Backrest adjustment, 1 = Adjustment Sender Fault Check
+LC,09,4,Belt Height adjustment, 1 = Sensorless Positioning and Adjustment Sender Fault Check
+LC,09,7=,Fault Check Options
+V,1083
+
